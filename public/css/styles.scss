@@ -115,10 +115,6 @@ $primary_background: #2d2f2f;
 }
 
 @mixin card() {
-    //border-radius: 34px;
-    //background: #2d2f2f;
-    //box-shadow:  16px 16px 31px #272929,
-    //-16px -16px 31px #333535;
     border-radius: 17px;
     background: #2d2f2f;
     box-shadow: 9px 9px 15px #282a2a,
@@ -135,9 +131,9 @@ $primary_background: #2d2f2f;
 
 @mixin button() {
     border-radius: 17px;
-    background: linear-gradient(145deg, #292a2a, #303232);
-    box-shadow: 9px 9px 15px #282a2a,
-    -9px -9px 15px #323434;
+    background: #2d2f2f;
+    box-shadow:  9px 9px 29px #232424,
+    -9px -9px 29px #373a3a;
 }
 
 
@@ -371,13 +367,13 @@ h2.main-heading {
     input{
         @include cardDown;
         text-align: center;
-        border: none;
         background-color: transparent;
         height: 100%;
         font-weight: 500;
         margin: 0 10px;
         width: 100px;
         min-height: 50px;
+        border: 1px solid rgba(218, 218, 218, 0.05);
         &::-webkit-outer-spin-button,
         &::-webkit-inner-spin-button {
             -webkit-appearance: none;
@@ -398,6 +394,8 @@ h2.main-heading {
     color: white;
     border: none;
     max-width: 100%;
+    -webkit-appearance:none;
+    -moz-appearance: none;
     &:focus{
         outline: none;
     }

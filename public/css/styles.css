@@ -87,8 +87,8 @@ h2.main-heading {
 
 .button {
   border-radius: 17px;
-  background: linear-gradient(145deg, #292a2a, #303232);
-  box-shadow: 9px 9px 15px #282a2a, -9px -9px 15px #323434;
+  background: #2d2f2f;
+  box-shadow: 9px 9px 29px #232424, -9px -9px 29px #373a3a;
   border: none;
   display: flex;
   justify-content: center;
@@ -231,8 +231,8 @@ h2.main-heading {
 
 .time-input {
   border-radius: 17px;
-  background: linear-gradient(145deg, #292a2a, #303232);
-  box-shadow: 9px 9px 15px #282a2a, -9px -9px 15px #323434;
+  background: #2d2f2f;
+  box-shadow: 9px 9px 29px #232424, -9px -9px 29px #373a3a;
   border: none;
   padding: 10px 12px;
   color: #fafafa;
@@ -246,8 +246,8 @@ h2.main-heading {
 
 .input-energy-limit {
   border-radius: 17px;
-  background: linear-gradient(145deg, #292a2a, #303232);
-  box-shadow: 9px 9px 15px #282a2a, -9px -9px 15px #323434;
+  background: #2d2f2f;
+  box-shadow: 9px 9px 29px #232424, -9px -9px 29px #373a3a;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -257,13 +257,13 @@ h2.main-heading {
     background: #2d2f2f;
     box-shadow: inset 9px 9px 15px #282a2a, inset -9px -9px 15px #323434;
     text-align: center;
-    border: none;
     background-color: transparent;
     height: 100%;
     font-weight: 500;
     margin: 0 10px;
     width: 100px;
-    min-height: 50px; }
+    min-height: 50px;
+    border: 1px solid rgba(218, 218, 218, 0.05); }
     .input-energy-limit input::-webkit-outer-spin-button, .input-energy-limit input::-webkit-inner-spin-button {
       -webkit-appearance: none; }
     .input-energy-limit input:focus {
@@ -277,13 +277,15 @@ h2.main-heading {
 
 .select-box {
   border-radius: 17px;
-  background: linear-gradient(145deg, #292a2a, #303232);
-  box-shadow: 9px 9px 15px #282a2a, -9px -9px 15px #323434;
+  background: #2d2f2f;
+  box-shadow: 9px 9px 29px #232424, -9px -9px 29px #373a3a;
   padding: 10px 6px;
   font-size: 0.8em;
   color: white;
   border: none;
-  max-width: 100%; }
+  max-width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
   .select-box:focus {
     outline: none; }
   .select-box:hover {
